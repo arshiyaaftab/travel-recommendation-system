@@ -17,3 +17,8 @@ Steps to follow:
 3.copy paste the link in browser and add "/index" to it and press enter.
 
 4.For image search upload files from "queries" folder only.
+
+
+
+
+
