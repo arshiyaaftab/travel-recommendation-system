@@ -1,0 +1,142 @@
+/*-----------------------------------------------------------------------------------*/
+/* Top Menu - Hornav */
+/*-----------------------------------------------------------------------------------*/
+
+
+#hornav {
+	font-family: Roboto Condensed;
+	position: relative;  
+	padding-top: 0px; 
+	padding-right:0px;
+	text-align: center;
+    width: 100%;
+    .navbar-nav {
+    	float: none;
+    }
+	ul {
+		background-color: rgba(23, 23, 23, 0.3);
+		border-radius: 0 0 5px 5px;
+	    display: inline-block;
+	    margin: 0;
+	    padding: 0 10px;
+		> li {
+			margin:0px 5px; 
+			> a, > span {
+				color: #FFFFFF;
+				display: block;
+			    font-size: 15px;
+			    font-weight: 300;
+			    letter-spacing: 1px;
+			    padding: 18px 20px;
+			    text-transform: uppercase;
+				&:hover, &:active, &.current {
+					background: none;
+				}
+				display: block;
+			}
+		}
+	}
+}
+
+/* Dropdown Menu */
+#hornav ul ul {
+	text-align: left;
+	background: #f2f2f2;
+	border-radius: 5px;
+	border: 1px solid #dddddd;
+	position:relative;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 5px 0 !important;
+	min-width: 200px;
+	z-index: 20;
+	li {
+		min-height: 22px;
+  		float: none;
+  		position: relative;
+  		margin: 0;
+  		a, span {
+  			background-color: transparent;
+  			box-shadow: none;
+  			display: block;
+			padding: 6px 15px;
+			color: #555555 !important;
+			text-transform: none;
+			border-top: 1px solid rgba(0, 0, 0, 0.05);
+  		}
+	}
+	&:before {
+		background: transparent url('../img/menu_arrow.png') no-repeat 0 0;
+		content: "";
+		display: block;
+		height: 10px;
+		left: 21px;
+		position: absolute;
+		top: -10px;
+		width: 14px;
+	}
+}
+
+#hornav ul ul li:first-child a {
+	border: none;
+}
+#hornav ul ul li a:active,
+#hornav ul ul li a:focus,
+#hornav ul ul li a:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#hornav ul ul li:hover a {
+  text-decoration: none;
+}
+#hornav ul ul ul:before {
+  display: none;
+}
+#hornav li ul,
+#hornav li ul li ul {
+  position: absolute;
+  height: auto;
+  min-width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 240ms linear;
+  -o-transition: all 240ms linear;
+  -ms-transition: all 240ms linear;
+  -moz-transition: all 240ms linear;
+  -webkit-transition: all 240ms linear;
+  top: 70px;
+  z-index: 1000;
+}
+#hornav li:hover > ul,
+#hornav li ul li:hover > ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  top: 60px;
+}
+#hornav li ul li ul {
+  left: 220px;
+  top: 0;
+}
+#hornav li ul li:hover > ul {
+  top: 0px;
+  left: 200px;
+}
+#hornav ul ul .parent:after {
+    top: 10px;
+    right: 15px;
+    color: #777;
+    font-size: 14px;
+    content: "\f105";
+    position: absolute;
+    font-weight: normal;
+    display: inline-block;
+    font-family: FontAwesome; 
+}
+

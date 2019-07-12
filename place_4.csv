@@ -1,0 +1,591 @@
+,city,place,rating,type,user_id
+0,Mysore,Mysore Palace,4.4,Palace,11
+1,Mysore,Somanathapura Temple,3.5,Temple,33
+2,Mysore,Brindavan Gardens,4.2,Gardens,34
+3,Mysore,Mysore Zoo,4.3,National Park,23
+4,Mysore,Chamundeshwari Temple,4.2,Temple,27
+5,Mysore,GRS Fantasy Park,4.2,National Park,22
+6,Mysore,St Philomena s Church,4.3,Church,8
+7,Mysore,City Shopping,3.4,Mall,12
+8,Mysore,Jaganmohan Palace,4.2,Palace,21
+9,Mysore,Talakadu,4.2,Palace,29
+10,Mysore,Karanji Lake,3.8,Lake,3
+11,Mysore,Folklore Museum,3.2,Museum,23
+12,Mysore,Rail Museum Mysore,3.7,Museum,32
+13,Mysore,Trinesvaraswamy Temple,3.2,Temple,20
+14,Mysore,Nanjangud,3.7,Temple,5
+15,Mysore,Melukote Temples,3.2,Temple,21
+16,Mysore,Bonsai Garden,3.1,Park,1
+17,Mysore,Srikanteswara Temple,3.2,Temple,26
+18,Mysore,Lalitha Mahal Palace,3.1,Temple,17
+19,Mysore,Shuka Vana,3,Park,2
+20,Mysore,Ashtanga Yoga Institute,3,Temple,27
+21,Mysore,Mysore Mandala Yoga Shala,3.1,Fort,3
+22,Mysore,Chunchanakatte Falls,2.8,Hill,32
+23,Mysore,Balmuri Waterfalls,2.3,Hill,9
+24,Mysore,Dr Ambedkar s Park,2,Park,25
+25,Mysore,Lingambudhi Park,3.4,Park,22
+26,Mysore,Javaregowda Park,1,Park,9
+27,Mysore,Sanjeevini Park,2.5,Park,25
+28,Mysore,Cheluvamba Park,2.6,Park,24
+29,Mysore,Freedom Fighter s Park,2.8,Park,10
+30,Mysore,Mysore Dasara,3,Temple,1
+31,Davanagere,Kunduvada Kere,3.4,Fort,4
+32,Davanagere,Bagali,3.4,Fort,33
+33,Davanagere,Sri Anjaneya Swamy Temple,3.4,Hill,15
+34,Davanagere,Karanji Mantapa,3.1,Temple,13
+35,Davanagere,Bathi Gudda,3.1,Fort,7
+36,Davanagere,Sulekere,3.1,Fort,14
+37,Davanagere,Anekonda,3.1,Hill,12
+38,Davanagere,Eshwara Temple,3.1,Temple,24
+39,Davanagere,Betur,3.1,Fort,26
+40,Davanagere,Comprehensive Water Supply Tank,3.1,Fort,21
+41,Davanagere,Shopping in Davanagere,3,Hill,34
+42,Davanagere,The Loot,3.1,Historic Place,21
+43,Davanagere,B S Channa Basappa and Sons,3.1,Historic Place,16
+44,Bellary,The Rocks Mountain,4.4,Park,14
+45,Bellary,Bellary Fort Fort,4.4,Fort,4
+46,Bellary,Bellary Zoo Zoo,4.4,Zoo,9
+47,Bellary,Kumbara Gudda Hill,4.4,Hill,13
+48,Bellary,Upper Fort Fort,4.4,Fort,3
+49,Bellary,Lower Fort Fort,4.4,Fort,9
+50,Bellary,Other Hills Hill,4.4,Hill,30
+51,Bellary,British Colonial Buildings Historic Place,4.4,Historic Place,20
+52,Bellary,Turkish Martyrs Graveyard Historic Place,4.4,Historic Place,32
+53,Bellary,Kuntegadda Park And Kaategudda Park Park,4.4,Park,2
+54,Bellary,Mailarlinga Temple Temple,4.4,Temple,25
+55,Bidar,Gurudwara Nanak Jhira Sahib Place of Worship,4.5,Place of Worship,25
+56,Bidar,Bidar Fort Fort,4.5,Fort,33
+57,Bidar,Rangin Mahal Monument,4.5,Monument,8
+58,Bidar,Papnash Shiva Temple Place of Worship,4.5,Place of Worship,31
+59,Bidar,Chaubara Monument,4.5,Monument,4
+60,Bidar,Chaukhandi Of Hazrat Khalil Ullah Monument,4.5,Monument,12
+61,Bidar,Mohamad Gawan Madarsa Religious Place,4.5,Religious Place,28
+62,Bidar,Bahmani Tombs Monument,4.5,Monument,16
+63,Bidar,Narasimha Jhira Cave Temple Place of Worship,4.5,Place of Worship,9
+64,Bidar,Solah Khamba Mosque Place of Worship,4.5,Place of Worship,9
+65,Bijapur,Gol Gumbaz Historic Place,4.5,Historic Place,34
+66,Bijapur,Malik-e-Maidan Monument,4.5,Monument,27
+67,Bijapur,Ibrahim Rauza Monument,4.5,Monument,34
+68,Bijapur,Almatti Dam Dam,4.5,Dam,32
+69,Bijapur,Bara Kaman Historic Place,4.5,Historic Place,10
+70,Bijapur,Jumma Masjid Mosque,4.5,Mosque,32
+71,Bijapur,Jod Gumbaz Monument,4.5,Monument,15
+72,Bijapur,Kudalasangama Place of Worship,4.5,Place of Worship,35
+73,Bijapur,Bara Dari (Cook Palace) Heritage Site,4.5,Heritage Site,5
+74,Bijapur,Bijpaur Fort Fort,4.5,Fort,2
+75,Bijapur,Shivgiri Temple Temple,4.5,Temple,22
+76,Bijapur,Archaeological Museum Bijapur Museum,4.5,Museum,24
+77,Bijapur,Shri Shiddeshwar Temple Place of Worship,4.5,Place of Worship,12
+78,Bijapur,Upli Burj Monument,4.5,Monument,5
+79,Bijapur,Uppali Buruz Monument,4.5,Monument,33
+80,Bijapur,Jama Masjid Place of Worship,4.5,Place of Worship,4
+81,Bijapur,Taj Bawdi Offbeat Attraction,4.5,Offbeat Attraction,27
+82,Bijapur,Bijapur Castle Fort,4.5,Fort,26
+83,Bijapur,Sat Manzil Monument,4.5,Monument,5
+84,Bijapur,Lotus Lake Lake,4.5,Lake,1
+85,Bijapur,Jala Manzil Palace,2.9,Palace,32
+86,Bijapur,Gagan Mahal Palace,2.8,Palace,20
+87,Bijapur,Pangarh Fort Fort,2.6,Fort,10
+88,Bijapur,Asar Mahal Monument,2.7,Monument,25
+89,Bijapur,The Citadel Monument,2.5,Monument,34
+90,Bijapur,Chand Bawadi Historic Place,2.5,Historic Place,25
+91,Bijapur,Basanta Vana Place of Worship,3.1,Place of Worship,34
+92,Bijapur,Gajanana Temple Place of Worship,2.9,Place of Worship,33
+93,Bijapur,Sherza Burj Historic Place,3,Historic Place,26
+94,Bijapur,Sangeeta Mahal Entertainment Centre,2.7,Entertainment Centre,12
+95,Bijapur,Mehtar Mahal Palace,3.3,Palace,35
+96,Bijapur,Shri Prasanna Ganesh Temple Craft,2.8,Craft,15
+97,Bijapur,Navaraspura Entertainment Centre,2.7,Entertainment Centre,8
+98,Bijapur,Narasimha Temple Place of Worship,2.7,Place of Worship,5
+99,Bijapur,Anand Mahal Palace,2.6,Palace,31
+100,Bijapur,Afzal Khan Cenotaph Monument,2.9,Monument,6
+101,Bijapur,Ambabai Temple Temple,2.8,Temple,10
+102,Bijapur,Ayyappa Swamy Temple Temple,2.8,Temple,12
+103,Bijapur,Bhairamgarh Sanctuary Sanctuary,2.6,Sanctuary,29
+104,Bijapur,Csi Church Church,3.2,Church,14
+105,Chamarajanagar,Bara Chukki Offbeat Attraction,4.4,Offbeat Attraction,22
+106,Chamarajanagar,Gopalaswamy Betta Hill,3.7,Hill,17
+107,Chamarajanagar,Chamarajeshwara Temple Place of Worship,3.7,Place of Worship,33
+108,Chamarajanagar,Suvarnavathi Reservoir Offbeat Attraction,3.8,Offbeat Attraction,21
+109,Chamarajanagar,Kanakagiri Hill Hill,3.5,Hill,15
+110,Chamarajanagar,Dargah Of Peer Hazarath Sayyaduna Hazarath Murdana Gayib Religious Place,5,Religious Place,2
+111,Chikballapur,Vivekanand Falls,3.4,Hill,20
+112,Chikballapur,The Ranganatha Swamy temple,3.4,Temple,2
+113,Chikballapur,Kaivara,3.4,Mountain,20
+114,Chikballapur,Nandi Hills,3.5,Hill,8
+115,Chikballapur,Muddenahalli,3.1,Religious Place,24
+116,Chikballapur,Bhoganandeeshwara Temple,3.1,Temple,6
+117,Chikballapur,Trekking,3.1,Water Fall,22
+118,Chikballapur,Chintamani,3.6,Monument,1
+119,Chikmagalur,Sringeri Sharada Peetha Temple,4.5,Temple,17
+120,Chikmagalur,Mullayanagiri Hill,4.5,Hill,12
+121,Chikmagalur,Baba Budan Giri Hills Hill,4.5,Hill,34
+122,Chikmagalur,Inam Dattatreya Peetha Religious Place,4.5,Religious Place,11
+123,Chikmagalur,Hebbe Falls Water Fall,4.5,Water Fall,7
+124,Chikmagalur,Sharadamba Temple Temple,4.5,Temple,6
+125,Chikmagalur,Amruteshvara Temple Temple,4.5,Temple,7
+126,Chikmagalur,Hanumana Gundi Falls Water Fall,4.5,Water Fall,10
+127,Chikmagalur,Mullaiyanagiri Hill,4.5,Hill,31
+128,Chikmagalur,Jerry Falls Water Fall,4.5,Water Fall,30
+129,Chikmagalur,Annapurneshwari Temple Temple,4.5,Temple,27
+130,Chikmagalur,Sri Parsawanath Tirthankara Jain Temple Temple,4.5,Temple,35
+131,Chikmagalur,Charmadi Ghat (Mudigere) Ghat,4.5,Ghat,8
+132,Chikmagalur,Kudremukh National Park National Park,4.5,National Park,6
+133,Chikmagalur,Ayyanakere Lake Lake,4.5,Lake,8
+134,Chikmagalur,Rajendra Hill Hill,4.5,Hill,6
+135,Chikmagalur,Coffee Museum Museum,4.5,Museum,24
+136,Chikmagalur,Sringeri Mutt Temple,4.5,Temple,24
+137,Chikmagalur,Bhadra Wildlife Sanctuary Sanctuary,4.5,Sanctuary,27
+138,Chikmagalur,Kemmanagundi Hill,4.5,Hill,24
+139,Chikmagalur,Kodanda Ramaswamy Temple Temple,4.4,Temple,34
+140,Chikmagalur,Vidyasankara Temple Temple,3.7,Temple,15
+141,Chikmagalur,Central Coffee Research Institution Offbeat Attraction,3.7,Offbeat Attraction,32
+142,Chikmagalur,Malayala Brahma Temple Temple,3.8,Temple,17
+143,Chikmagalur,Lakya Dam Dam,3.5,Dam,35
+144,Chikmagalur,Madagadakere Lake Lake,5,Lake,29
+145,Chikmagalur,Torana Ganapati Temple Temple,5,Temple,15
+146,Chikmagalur,Manikyadhara Falls Water Fall,3.9,Water Fall,8
+147,Chikmagalur,Gangamoola Hill Hill,3.6,Hill,7
+148,Chikmagalur,Kere Anjaneya Temple Temple,3.6,Temple,33
+149,Chikmagalur,Kalahatti Falls Water Fall,3.4,Water Fall,28
+150,Chikmagalur,Muthodi Wildlife Sanctuary Sanctuary,2.9,Sanctuary,32
+151,Chikmagalur,Mahatama Gandhi Park. Park,1.4,Park,10
+152,Chikmagalur,Thirumaleguppi Mountain,2.1,Mountain,12
+153,Chikmagalur,Rock Garden Garden,2.9,Garden,27
+154,Chitradurga,Chitradurga Fort Fort,4.5,Fort,5
+155,Chitradurga,Chandravalli Caves Historic Place,4.6,Historic Place,16
+156,Chitradurga,Vani Vilas Sagar Dam,4.2,Dam,30
+157,Chitradurga,Hiriyur Place of Worship,5,Place of Worship,22
+158,Chitradurga,Jogimatti Religious Place,5,Religious Place,20
+159,Chitradurga,Kallina Kote Fort,4.1,Fort,12
+160,Chitradurga,Adumalleshwara Temple Place of Worship,3.6,Place of Worship,3
+161,Mangalore,Kudroli Sri Gokarnanatheshwara Temple Temple,4.6,Temple,9
+162,Mangalore,Panambur Beach Beach,4.3,Beach,1
+163,Mangalore,St. Aloysious Chapel Church,4.4,Church,30
+164,Mangalore,Kateel Temple,4.7,Temple,33
+165,Mangalore,Tannirubhavi Beach Beach,4.3,Beach,12
+166,Mangalore,Durga Parameshwari Temple Temple,4.6,Temple,2
+167,Mangalore,St. Mary'S Islands Island,4.6,Island,22
+168,Mangalore,Kadri Manjunatha Temple Temple,4.5,Temple,18
+169,Mangalore,Mangalore Beach Beach,4.1,Beach,33
+170,Mangalore,Mangaladevi Temple Temple,4,Temple,31
+171,Mangalore,Shri Manjunatha Temple Temple,4.6,Temple,3
+172,Mangalore,Light House Hill Garden Garden,4.5,Garden,15
+173,Mangalore,Ullal Offbeat Attraction,4.1,Offbeat Attraction,9
+174,Mangalore,Pilikula Nisargadhama Theme Park,4.2,Theme Park,17
+175,Mangalore,Milagres Church Church,4.1,Church,13
+176,Mangalore,Someshwar Beach Beach,4.3,Beach,8
+177,Mangalore,Pilikula Park And Golf Course Park,3.7,Park,17
+178,Mangalore,Polali Rajarajeshwari Temple Temple,4.6,Temple,20
+179,Mangalore,Shri Sharavu Mahaganapathi Temple Temple,4.4,Temple,26
+180,Mangalore,Kudroli Gokarnath Temple Temple,4.3,Temple,20
+181,Mangalore,Thousand Pillars Jain Temple Temple,4.2,Temple,31
+182,Mangalore,Kadri Hill Park Park,3.9,Park,23
+183,Mangalore,Kudupu Sri Anantha Padmanabha Temple Temple,3.8,Temple,28
+184,Mangalore,Mangala Stadium Cricket stadium,3.6,Cricket stadium,13
+185,Mangalore,New Mangalore Port Port,3.6,Port,16
+186,Mangalore,Mahatma Gandhi Museum Museum,5,Museum,24
+187,Mangalore,Masjid Zeenath Baksh(Jumma Masjid) Mosque,3.9,Mosque,30
+188,Mangalore,Rosario Cathedral Church,4.8,Church,32
+189,Mangalore,Sammilan Shetty'S Butterfly Park Park,5,Park,11
+190,Dharwad,Sadhankere Lake,4.3,Lake,5
+191,Dharwad,Urban Oasis Mall Mall,5,Mall,24
+192,Dharwad,Ulavi Basaveshwar Temple Temple,3.6,Temple,6
+193,Dharwad,Nrupatunga Betta Picnic Spot,3.9,Picnic Spot,17
+194,Dharwad,Unkal Lake Lake,4.3,Lake,27
+195,Dharwad,Kelgeri Lake Lake,2.9,Lake,11
+196,Gadag,Trikuteshwara Temple Place of Worship,4.6,Place of Worship,14
+197,Gadag,"Nagakunda, Sudi Taluka Heritage Site",5,Heritage Site,24
+198,Gadag,Lakkundi Religious Place,4.6,Religious Place,32
+199,Gadag,Veer Narayana Temple Place of Worship,3.6,Place of Worship,1
+200,Gadag,Dambala Temple Place of Worship,3.3,Place of Worship,19
+201,Gulbarga,Khwaja Bande Nawaz Dargah Dargah,4.4,Dargah,2
+202,Gulbarga,Sannati Village,3.9,Village,3
+203,Gulbarga,Jama Masjid Mosque,4,Mosque,28
+204,Gulbarga,Gulbarga Fort Fort,4.1,Fort,33
+205,Gulbarga,Chandralamba Temple Temple,5,Temple,25
+206,Gulbarga,Deval Ghanagapur Village,5,Village,19
+207,Hassan,Gorur Dam Dam,4.2,Dam,9
+208,Hassan,Shettihalli Church Church,3.8,Church,31
+209,Hassan,Bisle Ghat Or Bisle Reserve Forest Sanctuary,4.6,Sanctuary,7
+210,Hassan,Veeranarayana Temple Temple,4.3,Temple,31
+211,Hassan,Hulikere Pond Pond,3.6,Pond,31
+212,Hassan,Hasanamba Temple Temple,3.5,Temple,35
+213,Hassan,District Museum Museum,2.9,Museum,32
+214,Haveri,Siddeshwara Temple Place of Worship,3.3,Place of Worship,4
+215,Haveri,Tarakeshwara Temple Place of Worship,4.6,Place of Worship,4
+216,Haveri,Bankapura Peacock Sanctuary Sanctuary,4.5,Sanctuary,2
+217,Haveri,Ranebennur Blackbuck Sanctuary Sanctuary,5,Sanctuary,30
+218,Coorg,Namdroling Monastery (Little Tibet) Monastery,4.3,Monastery,5
+219,Coorg,Dubare Elephant Camp Sanctuary,3.9,Sanctuary,18
+220,Coorg,Abbi Falls Water Fall,3.9,Water Fall,20
+221,Coorg,Tibetian Monastery Monastery,4.4,Monastery,11
+222,Coorg,Iruppu Falls Water Fall,4.4,Water Fall,27
+223,Coorg,Mandalpatti Mountain,4.5,Mountain,29
+224,Coorg,Bylakuppe Heritage Site,4.1,Heritage Site,27
+225,Coorg,Brahmagiri Peak Hill,4.8,Hill,26
+226,Coorg,Raja's Seat View point,3.8,View point,3
+227,Coorg,Omkareshwara Temple Temple,3.9,Temple,23
+228,Coorg,Harangi Dam Dam,4.5,Dam,28
+229,Coorg,Nagarhole Park National Park,3.8,National Park,24
+230,Coorg,Mandalpatti View Point View point,5,View point,33
+231,Coorg,Cauvery Nisargadhama Picnic Spot,3.7,Picnic Spot,21
+232,Coorg,Mallalli Falls Water Fall,4.1,Water Fall,27
+233,Coorg,Bhagamandala Temple,4.2,Temple,13
+234,Coorg,Tadiandamol Peak Mountain,4.7,Mountain,14
+235,Coorg,Padi Iggutappa Temple Temple,4.5,Temple,18
+236,Coorg,Thadiyandamol Hills Hill,4,Hill,18
+237,Coorg,"Chettalli, Madikeri Village",4.6,Village,11
+238,Coorg,Pushpagiri Wildlife Sanctuary Sanctuary,4.1,Sanctuary,14
+239,Coorg,Talakaveri Wildlife Sanctuary Sanctuary,4.3,Sanctuary,1
+240,Coorg,Nisargadhama Forest Forest,3.4,Forest,10
+241,Coorg,Nalknad Palace Palace,4.1,Palace,9
+242,Coorg,Valnur Fishing Camp Sanctuary,4.7,Sanctuary,1
+243,Coorg,Somwarpet Offbeat Attraction,3.9,Offbeat Attraction,17
+244,Coorg,Karada Monument,4.8,Monument,32
+245,Coorg,"Shri Shringeri Shankar Math, Siddapura Religious Place",4.8,Religious Place,22
+246,Coorg,Clock Tower Clock Tower,4.1,Clock Tower,3
+247,Coorg,Nehru Mantap Picnic Spot,4.6,Picnic Spot,16
+248,Coorg,Honnamana Kere Lake,4.4,Lake,2
+249,Coorg,St. Anne's Church Church,4.2,Church,4
+250,Coorg,Barapole Rafting Sport,4,Sport,1
+251,Coorg,Chomamale Hill Hill,4.3,Hill,13
+252,Coorg,"Veerabhoomi, Dubare Village",3.7,Village,9
+253,Coorg,Gaddige Tomb,4,Tomb,8
+254,Coorg,Dargah Sharif Of Yemmemadu Dargah,4,Dargah,35
+255,Coorg,"Burude Falls, Siddapura Water Fall",4,Water Fall,19
+256,Coorg,Veerabhoomi Tourist Village Village,4.8,Village,8
+257,Kolar,Kurudumale Place of Worship,4.3,Place of Worship,14
+258,Kolar,Kotilingeshwara Temple Place of Worship,4.3,Place of Worship,18
+259,Kolar,Kolaramma Temple Place of Worship,5,Place of Worship,31
+260,Kolar,Bethamangala Lake,4.3,Lake,20
+261,Kolar,Chikka Tirupati Temple Temple,4.3,Temple,29
+262,Kolar,Someshwara Temple Place of Worship,4.3,Place of Worship,1
+263,Kolar,Avani Offbeat Attraction,3.8,Offbeat Attraction,4
+264,Kolar,Antara Gange Offbeat Attraction,3.2,Offbeat Attraction,32
+265,Kolar,Bangaru Tirupati Place of Worship,3.6,Place of Worship,10
+266,Kolar,Bangarapet Offbeat Attraction,2.5,Offbeat Attraction,2
+267,Koppal,Huligemma Temple Place of Worship,4.3,Place of Worship,3
+268,Koppal,Huligemma Temple Place of Worship,4.3,Place of Worship,23
+269,Koppal,Munirabad Dam,4.3,Dam,22
+270,Koppal,Anegundi Village,3.6,Village,1
+271,Koppal,Navabrindavanam Tomb,3.6,Tomb,10
+272,Mandya,Gumbaz Fort,3.9,Fort,32
+273,Mandya,Krishna Raja Sagara Dam And Brindavan Gardens Park,4.4,Park,23
+274,Mandya,Tonnur Kere Lake,5,Lake,12
+275,Mandya,Shivanasamudra Falls Water Fall,4.6,Water Fall,17
+276,Mandya,Sri Saumyakeshava Temple Temple,3.6,Temple,8
+277,Mandya,Lakshminarayana Temple Place of Worship,4.6,Place of Worship,9
+278,Mandya,Basaralu Temple Place of Worship,4.3,Place of Worship,29
+279,Mandya,Kokkare Bellur Village,3.6,Village,23
+280,Mandya,Kuntibetta Hill,3,Hill,34
+281,Mandya,Kokrebellur Pelicanry Village,2.9,Village,7
+282,Mandya,Sri Ranganathaswamy Temple Place of Worship,5,Place of Worship,24
+283,Mandya,Ganjam Historic Place,3.9,Historic Place,35
+284,Raichur,Koormagadde Village,5,Village,7
+285,Raichur,Kallur Village,3.1,Village,20
+286,Raichur,Raichur Fort Fort,3.3,Fort,19
+287,Raichur,Ek Minar Ki Masjid Place of Worship,2.5,Place of Worship,17
+288,Raichur,Tomb Of Pir Sailani Shah Monument,2.9,Monument,32
+289,Raichur,Tomb Of Pir Sailani Shah Monument,2.9,Monument,23
+290,Raichur,Manvi Place of Worship,2.9,Place of Worship,32
+291,Raichur,Bala Hisar Offbeat Attraction,5,Offbeat Attraction,6
+292,Ramnagaram,Ramnagara Hills,3.4,Hills,31
+293,Ramnagaram,Ramdevara Temple,3.4,Temple,15
+294,Ramnagaram,Ramadevarabetta hills,3.4,Hills,23
+295,Ramnagaram,Janapada Loka,3.6,Park,1
+296,Ramnagaram,Savandurga,3.1,Dam,4
+297,Ramnagaram,Bird watching in Ramnagara,3.1,National Park,5
+298,Ramnagaram,City Shopping,3,Mall,14
+299,Shimoga,Jog Falls Water Fall,4.6,Water Fall,21
+300,Shimoga,Kodachadri Hill,4.8,Hill,28
+301,Shimoga,Bhadra River Project Dam Dam,4.5,Dam,6
+302,Shimoga,Gudavi Bird Sanctuary Sanctuary,4.2,Sanctuary,29
+303,Shimoga,Tavarekoppa Tiger And Lion Safari National Park,4.4,National Park,1
+304,Shimoga,Tyavarekoppa Picnic Spot,3.7,Picnic Spot,9
+305,Shimoga,Sakrebayalu Elephant Camp National Park,3.9,National Park,27
+306,Shimoga,Sharavati River River,3.9,River,14
+307,Shimoga,Gandhi Park Park,4.6,Park,5
+308,Shimoga,Gandhi Park Park,4.6,Park,12
+309,Shimoga,Shivappanaika Palace Museum Museum,4.6,Museum,16
+310,Shimoga,Kundadri Mountain,4.5,Mountain,13
+311,Shimoga,Madhugiri Fort Fort,4.1,Fort,19
+312,Shimoga,Shiva Temple Temple,5,Temple,2
+313,Shimoga,Sri Raghavendra Swamy Temple Temple,4.6,Temple,20
+314,Shimoga,Keladi Temple,3.9,Temple,26
+315,Shimoga,Ganpati Temple Temple,3.9,Temple,23
+316,Shimoga,Ganpati Temple Temple,3.9,Temple,3
+317,Shimoga,Sacred Heart Church Church,3.6,Church,19
+318,Shimoga,Gajanur Dam Dam,3.6,Dam,10
+319,Shimoga,Linganmakki Dam Dam,2.9,Dam,22
+320,Shimoga,Shivappa Naik Palace Palace,3.2,Palace,31
+321,Shimoga,Sri Kalikaparmeswari Temple Temple,5,Temple,10
+322,Tumkur,Sri Venugopala Swamy Temple Temple,5,Temple,4
+323,Tumkur,Devarayanadurga Hill,4.3,Hill,5
+324,Tumkur,Namada Chilume Water spring,4.6,Water spring,11
+325,Tumkur,Sree Siddaganga Mutt Religious Place,3.9,Religious Place,29
+326,Tumkur,Kalleshwara Temple Place of Worship,5,Place of Worship,25
+327,Tumkur,Siddara Betta Place of Worship,5,Place of Worship,23
+328,Tumkur,Yoganarasimha Temple Temple,5,Temple,12
+329,Tumkur,Devarayanadurga State Forest Sanctuary,4.6,Sanctuary,9
+330,Tumkur,Shiva Ganga Religious Place,3.9,Religious Place,3
+331,Tumkur,Yediyur Siddhalingeshwara Temple Place of Worship,3.6,Place of Worship,18
+332,Tumkur,Aralaguppe Place of Worship,5,Place of Worship,20
+333,Tumkur,Kote Anjeneya Swami Statue Statue,5,Statue,21
+334,Tumkur,Basadi BettaMandaragiri Temple,4.3,Temple,5
+335,Tumkur,Gulur Ganesh Temple Place of Worship,4.3,Place of Worship,31
+336,Tumkur,Lakshmi Narasimha Swamy Temple Place of Worship,3.9,Place of Worship,5
+337,Tumkur,Madhugiri Bhagawan Mallinatha Temple Place of Worship,4.3,Place of Worship,1
+338,Udupi,Sri Krishna Temple Temple,4.6,Temple,13
+339,Udupi,Kaup Beach Beach,4.4,Beach,33
+340,Udupi,Udupi Sri Krishna Matha Religious Place,4.5,Beach,35
+341,Udupi,Kamalashile Brahmi Durgaparameshwari Temple Temple,4.5,Temple,24
+342,Udupi,Chandramauleshvara Temple Temple,4.3,Beach,33
+343,Udupi,Jumadi Islands Island,4.4,Temple,9
+344,Udupi,Hood Beach Beach,4.6,Beach,11
+345,Udupi,Manipal Lake Lake,4.6,Temple,2
+346,Udupi,Jomlu Theertha Falls Water Fall,5,Beach,19
+347,Udupi,Durga Parameshwari Temple Temple,5,Temple,4
+348,Udupi,Prasanna Ganapati Temple Temple,5,Beach,35
+349,Udupi,Shani Temple Temple,5,Temple,21
+350,Udupi,Udyavara Ganapathi Temple Temple,4.6,Beach,29
+351,Udupi,Pajaka Village Village,3.2,Island,22
+352,Udupi,Iskon Temple Temple,4.3,Religious Place,26
+353,Udupi,Kodi Beach Beach,4,Beach,13
+354,Karwar,Kurumgad island,3.4,Beach,26
+355,Karwar,Devbagh Beach,4.1,Temple,33
+356,Karwar,Karwar beach,4.1,Beach,9
+357,Karwar,Majali beach,3.4,Temple,19
+358,Karwar,Shopping in Karwar,3,Beach,35
+359,Karwar,Sadashivgadh Hill Fort,3.1,Temple,20
+360,Karwar,Oyster Rock Lighthouse,3.1,Beach,28
+361,Karwar,Durga Temple Karwar,3.1,Temple,7
+362,Karwar,Dargah of Peer Shan Shamsuddin Kharobat,3.1,Beach,3
+363,Karwar,Venkataramana temple,3.1,Temple,34
+364,Karwar,Naganath temple,3.1,Beach,16
+365,Karwar,Koodi bagh beach,3.1,River,13
+366,Karwar,Kot Shiveshwar,3.1,Temple,13
+367,Karwar,Warship Museum,0,Cave,30
+368,Karwar,Narasimha Temple,3.1,Fort,29
+369,Karwar,Karwar Aquarium,3.8,National Park,11
+370,Karwar,Kali Bridge,3.7,Sanctuary,21
+371,Karwar,Tilmati Beach,3.9,Dam,12
+372,Karwar,Anashi Waterfall,4.2,Temple,5
+373,Karwar,Maruti Temple Karwar,3.5,View point,31
+374,Karwar,Guddalli Peak,3.4,Hill,26
+375,Karwar,Binaga Beach,3.9,Temple,28
+376,Karwar,Sajjeshswara Temple,4.4,Offbeat Attraction,6
+377,Dandeli,River Kali River,4.5,River,7
+378,Dandeli,Syntheri Rock Rock,3.8,Temple,21
+379,Dandeli,Kavala Caves Cave,4.8,Cave,11
+380,Dandeli,Shivaji Fort Fort,4.3,Fort,10
+381,Dandeli,Anshi National Park National Park,3.7,National Park,29
+382,Dandeli,Dandeli Wildlife Sanctuary Sanctuary,3.5,Sanctuary,35
+383,Dandeli,Supa Dam Dam,3.5,Dam,28
+384,Dandeli,Dandelappa Temple Temple,5,Temple,10
+385,Dandeli,Sykes Point View point,3.9,View point,31
+386,Dandeli,Shiroli Peak Hill,3.6,Hill,32
+387,Dandeli,Sri Mallikarjuna Temple Temple,3.6,Temple,27
+388,Dandeli,Kulgi Nature Camp Offbeat Attraction,3.5,Offbeat Attraction,32
+389,Hospet,Tungabhadra Dam Dam,4.3,Dam,8
+390,Hospet,Royal Palace Palace,4.6,Palace,35
+391,Hospet,Queen's Bath Historic Place,3.9,Historic Place,4
+392,Hospet,The Archaeological Museum Museum,4.1,Museum,29
+393,Hospet,Nandanavana Park Park,3.6,Park,33
+394,Hospet,Chakra Vana Park,3.6,Park,30
+395,Hospet,Shri Ramulu Park Park,2.9,Park,16
+396,Belgaum,Belgaum Fort Fort,4.4,Fort,25
+397,Belgaum,Ramkrishna Ashrama Ashram,4.6,Ashram,10
+398,Belgaum,Kamala Basti Heritage Site,4.6,Heritage Site,13
+399,Belgaum,Kapileshwara Temple Temple,4.8,Temple,22
+400,Belgaum,Military Durga Devi Mandir Temple,4.5,Temple,30
+401,Belgaum,Kote Keri (Fort Lake) Lake,5,Lake,17
+402,Belgaum,Rakaskop Cave,4.3,Cave,34
+403,Belgaum,Sural Falls Water Fall,4.3,Water Fall,30
+404,Belgaum,Sri Hanuman Temple Temple,3.6,Temple,4
+405,Belgaum,Mahadev Temple Temple,3.9,Temple,7
+406,Belgaum,Naviltirtha Valley,3.6,Valley,30
+407,Belgaum,Kittur Fort And Palace Fort,3.2,Fort,23
+408,Bangalore,Wonder La Theme Park,4.5,Theme Park,35
+409,Bangalore,Lal Bagh Garden,4.2,Garden,13
+410,Bangalore,Bull Temple Nandi Temple Temple,4.4,Temple,35
+411,Bangalore,ISKCON Sri Radha Krishna-Chandra Mandir Temple,4.4,Temple,27
+412,Bangalore,Commercial Street Street,4.3,Street,17
+413,Bangalore,"ISKCON Bangalore, Sri Sri Lakshmi Narasimha Temple Temple",4.5,Temple,33
+414,Bangalore,Art Of Living International Center Ashram,4.6,Ashram,32
+415,Bangalore,Brigade Road Street,4,Street,30
+416,Bangalore,Forum Mall Mall,4.1,Mall,16
+417,Bangalore,HAL Heritage Centre And Aerospace Museum Museum,4.5,Museum,20
+418,Bangalore,Bannerghatta National Park National Park,4.3,National Park,19
+419,Bangalore,Bangalore Palace Palace,4.3,Palace,24
+420,Bangalore,Vidhana Soudha Historic Place,4.3,Historic Place,10
+421,Bangalore,Savandurga Hill,4.7,Hill,28
+422,Bangalore,Cubbon Park Park,4.2,Park,34
+423,Bangalore,Mahatma Gandhi (MG) Road Street,4.1,Street,25
+424,Bangalore,Surayanarayana Temple Temple,4.5,Temple,13
+425,Bangalore,Bugle Rock Rock,4.3,Rock,2
+426,Bangalore,Madivala Lake Lake,4.3,Lake,29
+427,Bangalore,Gavi Gangadhareshwara Temple Temple,4.4,Temple,8
+428,Bangalore,Hebbal Lake Lake,4.2,Lake,17
+429,Bangalore,Siddaganga Mutt Religious Place,4.6,Religious Place,31
+430,Bangalore,Ulsoor Lake Lake,4.1,Lake,3
+431,Bangalore,Kempegowda International Airport Airport,4,Airport,19
+432,Bangalore,Venkatappa Art Gallery Art Gallery,4.3,Art Gallery,12
+433,Bangalore,Ragigudda Prasanna Anjaneya Temple Temple,4.4,Temple,12
+434,Bangalore,Sankey Tank Lake,4.1,Lake,30
+435,Bangalore,Visvesvaraya Industrial And Technological Museum Museum,4.7,Museum,15
+436,Bangalore,Vikasa Soudha Offbeat Attraction,4.5,Offbeat Attraction,8
+437,Bangalore,Karnatak Chitrakala Parishath Craft,4.9,Craft,5
+438,Bangalore,Jumma Masjid Mosque,4.5,Mosque,2
+439,Bangalore,St. Marys Basilica Church,4.4,Church,28
+440,Bangalore,Shivasamudram Falls Water Fall,4.2,Water Fall,35
+441,Bangalore,MG Road Boulevard Craft,4.4,Craft,13
+442,Bangalore,Bangalore Fort Fort,4,Fort,2
+443,Bangalore,Fun World Theme Park,4.3,Theme Park,27
+444,Bangalore,Bangalore Turf Club Club,4.1,Club,16
+445,Bangalore,Breakout - Real Life Escape Games Entertainment Centre,4.9,Entertainment Centre,28
+446,Bangalore,Dodda Alada Mara (Big Banyan Tree) Park,4,Park,20
+447,Bangalore,Indira Gandhi Musical Fountain Park,4.1,Park,33
+448,Bangalore,Tipu Sultan Palace Palace,4,Palace,11
+449,Bangalore,Kempfort Shiva Temple Temple,4.6,Temple,21
+450,Bangalore,Jawaharlal Nehru Planetarium Planetarium,4.5,Planetarium,34
+451,Bangalore,Venkataramanaswamy Temple Temple,4.6,Temple,2
+452,Bangalore,Lakes Lake,3.8,Lake,33
+453,Bangalore,Rangoli Metro Art Center Craft,3.6,Craft,26
+454,Bangalore,Meenakshi Temple Temple,4.3,Temple,3
+455,Bangalore,Pyramid Valley International Architectural Building,5,Architectural Building,17
+456,Bangalore,Lumbini Gardens Garden,3.9,Garden,33
+457,Bangalore,Bangalore Airport,4.9,Airport,24
+458,Bangalore,Jaganath Temple Temple,4.3,Temple,14
+459,Bangalore,Devi Temple Temple,4.4,Temple,23
+460,Bangalore,Sri Dakshinamukha Nandi Tirtha Kalyani Kshetra Temple,4.3,Temple,11
+461,Bangalore,Snow City Entertainment Centre,3.8,Entertainment Centre,22
+462,Bangalore,Aquarium Bangalore Aquarium,4,Aquarium,23
+463,Bangalore,Mini Forest Park,4.3,Park,35
+464,Bangalore,"Food Street, V V Puram Street",4,Street,22
+465,Bangalore,National Gallery Of Modern Art Art Gallery,4.4,Art Gallery,30
+466,Bangalore,Kashmir Art Gallery Art Gallery,3.9,Art Gallery,32
+467,Bangalore,Government Of Karnataka Museum Museum,4,Museum,26
+468,Bangalore,Manchinbele Dam Dam,3.8,Dam,34
+469,Bangalore,Garuda Mall Mall,4.1,Mall,8
+470,Bangalore,Chunchi Falls Water Fall,4.1,Water Fall,28
+471,Bangalore,Attara Kacheri Offbeat Attraction,4.2,Offbeat Attraction,22
+472,Bangalore,Raja Rajeshwari Temple Temple,5,Temple,10
+473,Bangalore,Innovative Film City Theme Park,3.7,Theme Park,12
+474,Bangalore,Thippagondanahalli Reservoir Reservoir,4.3,Reservoir,9
+475,Bangalore,Dodda Ganapathi Temple Temple,5,Temple,4
+476,Bangalore,Oralakallu Teertha Historic Place,4.1,Historic Place,5
+477,Bangalore,Jai Durga Maa Temple Temple,5,Temple,5
+478,Bangalore,Mookambika Temple Temple,4.5,Temple,8
+479,Bangalore,Skandagiri Hills (Kalavara Durga) Hill,4.8,Hill,11
+480,Bangalore,Avalabetta Fort Hill,4.6,Hill,5
+481,Bangalore,Thattekere Lake,4.3,Lake,24
+482,Bangalore,Kempegowda Tower 3 Historic Place,2.9,Historic Place,33
+483,Bangalore,Shanmuga Temple Temple,3.9,Temple,12
+484,Bangalore,Shree Mukti Naga Kshetra Religious Place,4.2,Religious Place,29
+485,Bangalore,Miracle Centre Church Church,4.2,Church,5
+486,Bangalore,Anthargange Walkway,3.6,Walkway,35
+487,Bangalore,Devanahalli Fort Fort,3.9,Fort,25
+488,Bangalore,Kempegowda Tower 2 Historic Place,4.3,Historic Place,17
+489,Bangalore,Sri Kaadu Mallikarjunaswamy Temple Temple,3.6,Temple,1
+490,Bangalore,Mantri Square Mall,5,Mall,31
+491,Bangalore,Cauvery Karnataka State Arts & Crafts Emporium Art Emporium,3.6,Art Emporium,3
+492,Bangalore,Deer Park Park,3.6,Park,29
+493,Bangalore,Four Square Gospel Church Church,4.3,Church,3
+494,Bangalore,Kerala Art Gallery Art Gallery,3.9,Art Gallery,29
+495,Bangalore,Seshadari Iyer Memorial Memorial,4,Memorial,4
+496,Bangalore,Sri Vani Science Park Museum,3.6,Museum,30
+497,Bangalore,Art Focus Creativity Art Gallery,5,Art Gallery,6
+498,Bangalore,Chikkabanavara Lake Lake,4,Lake,27
+499,Bangalore,Don Bosco Church Church,5,Church,31
+500,Bangalore,Good Shepherd CSI Church Church,4.3,Church,23
+501,Bangalore,Mahalingeshwara Temple Temple,5,Temple,6
+502,Bangalore,Mukambikey Temple Temple,4.3,Temple,34
+503,Bangalore,New Testament Church Church,2.5,Church,34
+504,Bangalore,Om Shakthi Temple Temple,4.3,Temple,6
+0,Bangalore,Phoenix Market City Mall,4.5,Mall,15
+1,Bangalore,Saint Anthony's Friary Church Church,5,Church,16
+2,Bangalore,Chikka Tirupathi Temple,5,Temple,23
+1,Davanagere,Anekonda,4.3,Hill,2
+
+1,Davanagere,Bagali,4.3,Fort,2
+1,Koppal,Navabrindavanam Tomb,4.5,Tomb,2
+1,Mangalore,Tannirubhavi Beach Beach,2.7,Beach,3
+1,Davanagere,The Loot,4.3,Historic Place,1
+1,Bijapur,Anand Mahal Palace,4.2,Palace,1
+1,Mysore,Ashtanga Yoga Institute,4.3,Temple,1
+1,Davanagere,B S Channa Basappa and Sons,4,Historic Place,1
+1,Davanagere,B S Channa Basappa and Sons,4,Historic Place,1
+1,Tumkur,Aralaguppe Place of Worship,4,Place of Worship,1
+1,Davanagere,Anekonda,3,Hill,3
+1,Davanagere,Anekonda,4,Hill,3
+1,Davanagere,B S Channa Basappa and Sons,4,Historic Place,3
+1,Davanagere,Bagali,4,Fort,3
+1,Mysore,Balmuri Waterfalls,3.5,Hill,1
+1,Davanagere,Anekonda,4,Hill,1
+1,Mysore,Ashtanga Yoga Institute,4,Temple,1
+1,Davanagere,Anekonda,4,Hill,1
+1,Davanagere,Anekonda,5,Hill,1
+1,Mysore,Ashtanga Yoga Institute,4,Temple,1
+1,Davanagere,Anekonda,5,Hill,1
+1,Davanagere,Anekonda,4,Hill,1
+1,Mysore,Balmuri Waterfalls,4,Hill,1
+1,Mysore,Balmuri Waterfalls,4,Hill,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Davanagere,Anekonda,4,Hill,1
+1,Davanagere,Anekonda,5,Hill,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Ashtanga Yoga Institute,5,Temple,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Brindavan Gardens,5,Gardens,1
+1,Mysore,Cheluvamba Park,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,5,Park,1
+1,Mysore,Bonsai Garden,10,Park,1
+1,Mysore,City Shopping,5,Mall,1

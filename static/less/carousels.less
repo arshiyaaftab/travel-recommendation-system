@@ -1,0 +1,83 @@
+/*-----------------------------------------------------------------------------------*/
+/* Carousel */
+/*-----------------------------------------------------------------------------------*/
+.carousel-control {
+	background-image: none !important;
+	background: rgba(255,255,255,0.4);
+	width: 34px;
+	border-radius:50px;
+    font-size: 16px !important;
+    height: 34px;
+    margin-top: -20px;
+    top: 50%; 
+    text-shadow: none;
+    opacity: 1;
+    &:focus {opacity: 0.5;}
+    &.left, &.icon-prev, &.right, &.icon-next {
+    	span {
+    		font-size: 20px;
+    		margin-top: -10px;
+    		color: rgba(0,0,0,0.6);
+    	}
+    }
+    &.left, &.icon-prev {
+    	left: 20px;
+    }
+    &.right, &.icon-next {
+    	right: 20px;
+    }
+}
+.carousel-indicators {
+    bottom: 0;
+    right: 30px;
+}
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+    right: auto;
+}
+
+.carousel {
+	// overflow: hidden; 
+	&.alternative {
+		  margin-bottom: 30px;
+		  padding: 0 40px 0px 40px;
+		  margin-top: 30px;
+		  img {
+		  	padding:4px;
+		  	background: @gray-lighter;
+		  	box-shadow: 0 0 1px @gray-light;
+		  }
+		  .carousel-control.left, .carousel-control.right {
+		  	background-image: none !important;
+		  	background-color: transparent;
+		  	span {
+		  		font-size: 18px;
+		  		background: @gray-light;
+		  		border-radius: 50%;
+		  		padding: 5px;
+		  	}
+		  }
+		.carousel-control.left {
+		  left: -12px;
+		}
+		.carousel-control.right {
+		  right: -12px !important;
+		}
+		/* Changes the position of the indicators */
+		.carousel-indicators 
+		{
+		  right: 50%;
+		  top: auto;
+		  bottom: -35px;
+		  margin-right: -19px;
+		}
+		/* Changes the colour of the indicators */
+		.carousel-indicators li 
+		{
+		  background: @gray-lighter;
+		}
+		.carousel-indicators .active 
+		{
+		  background: @gray-light;
+		}
+	}
+}

@@ -1,0 +1,105 @@
+/*-----------------------------------------------------------------------------------*/
+/* Sidebar Menu */
+/*-----------------------------------------------------------------------------------*/
+.sidebar-nav {
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	li {
+		padding: 0;
+		a {
+      background: rgba(244, 244, 244, 1);
+			border-bottom: 1px solid @panel-default-border;
+			display: block;
+			padding: 10px 20px;
+			outline: none;
+			color: @brand-primary;
+			font-size: 16px;
+      font-weight:300;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+		/*Sidebar Sub Navigation*/
+		ul {
+      background: #fff;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			a {
+                background: #fff;
+				color: @gray;
+      			font-size: 12px;
+      			border-bottom: solid 1px @panel-default-border;
+      			padding: 5px 23px;
+      		}
+		}
+	}
+}
+
+.sidebar-nav li ul,
+.sidebar-nav li.active ul a {
+}
+
+.sidebar-nav ul li:hover a,
+.sidebar-nav ul li.active a {
+  color: @brand-primary;
+}
+
+.sidebar-nav > li:last-child a {border: none;}
+
+/*Sidebar Badges*/
+.list-group-item li > .badge {
+  float: right;
+}
+
+.sidebar-nav span.badge {
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.sidebar-nav .list-toggle > span.badge {
+  margin-right: 25px;
+}
+
+.sidebar-nav ul li span.badge {
+  margin-top: 0px;
+  font-size: 10px;
+  padding: 3px 5px; 
+  margin-right: 20px;
+  border-radius: 0 0 5px 5px;
+  background: @brand-primary-light;
+}
+
+/*Sidebar List Toggle*/
+.list-toggle:after {
+    top: 10px;
+    right: 20px;
+    color: #777;
+    font-size: 14px;
+    content: "\f105";
+    position: absolute;
+    font-weight: normal;
+    display: inline-block;
+    font-family: FontAwesome; 
+}
+
+.list-toggle.active:after {
+  color: #fff;
+  content: "\f107"; 
+}
+
+/* Make Font Awesome icons fixed width */
+.sidebar-nav li [class^="fa"],
+.sidebar-nav li [class*=" fa"] {
+  width: 1.25em;
+  left: -2px;
+  margin-right: 2px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+.sidebar-nav li [class^="fa"].fa-lg,
+.sidebar-nav li [class*=" fa"].fa-lg {
+  /* increased font size for fa-lg */
+  width: 1.5625em;
+}

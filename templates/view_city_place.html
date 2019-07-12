@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- bootstrap js cdn -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="{{url_for('index')}}">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                </button>
+                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   
+                    <ul class="navbar-nav">
+                        <li class="nav-item float-right">
+                            <a class="nav-link" href="{{url_for('logout')}}">Logout</a>
+                        </li>
+                    </ul>     
+                </div>
+            </nav>
+            <br>
+
+
+            <br><br><br>
+    <div class="container">
+        <div class="jumbotron" style="text-align:center">
+            <h1>Places in {{city_name}}</h1>
+        </div>
+        
+       <div class="row col-md-12 ">
+            {% for places in data %}
+            <div class="col-md-4" style="padding-bottom:15px;">
+                <div class="card" style="width:250px;height: 600px;">
+                    <img class="card-img-top" src="{{url_for('static',filename='img/'+places['place']+'.jpg')}}" alt="Card image" >
+                    <div class="card-body">
+                        <h4 class="card-title">{{places['place']}}</h4>
+                        <p class="card-text">Type : {{places['type']}}</p>
+                        <p class="card-text">Users : {{places['rating']}}</p>
+                        <form action="{{url_for('rating',city_name=city_name,place=places['place'],types=places['type'])}}" method="POST">
+                            <label for="">Give Your Rating</label>
+                            <input type="text" class="form-control" name="rating">
+                            <br>
+                            <input type="submit" class="btn btn-success" value="Rate">
+                        </form>
+                       
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+    </div>
+</body>
+</html>

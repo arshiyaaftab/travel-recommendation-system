@@ -1,0 +1,128 @@
+/*-----------------------------------------------------------------------------------*/
+/* Tabs */
+/*-----------------------------------------------------------------------------------*/
+.tabs-dark {
+	background-color: #3F3647;
+	position: relative;
+	.nav-tabs {
+		background-color: rgba(0, 0, 0, 0.25);
+		margin:0;
+		border: none;
+		> li {
+			a {
+				border-radius: 0;
+				border: none;
+				padding:18px 30px;
+			    color: #FFFFFF;
+			    font-size: 12px;
+			    letter-spacing: 1.5px;
+			    text-transform: uppercase;
+			    outline: none;
+			}
+		}
+	}
+	.tab-content {
+		padding: 25px;
+		color: rgba(255, 255, 255, 0.7);
+		h3 {
+			color: rgba(255, 255, 255, 0.7);
+			font-weight: 300;
+		}
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	    -moz-border-colors: none;
+	    background-color: #3F3647 !important;
+	    border: none;
+	    color: #FFFFFF;
+	    cursor: default;
+}
+	.nav > li > a:hover, .nav > li > a:focus {
+	    background-color: transparent;
+	    text-decoration: none;
+	    border: none;
+	    border-width: 1px !important;
+	}
+}
+
+.tabs {
+	border-radius: 4px;
+	margin-bottom: 35px;
+	.nav-tabs {
+		margin: 0;
+		font-size: 0;
+		border-bottom-color: #EEE;
+		li {
+			display: inline-block;
+			float: none;
+			a {
+				border-radius: 5px 5px 0 0;
+				font-size: 14px;
+				margin-right: 1px;
+			}
+		}
+	}
+	.nav-tabs li:last-child a {
+		margin-right: 0;
+	}
+
+	.nav-tabs li a, .nav-tabs li a:hover {
+		background: #F4F4F4;
+		border-bottom: none;
+		border-left: 1px solid #EEE;
+		border-right: 1px solid #EEE;
+		border-top: 3px solid #EEE;
+		color: @gray;
+	}
+
+	.nav-tabs li a:hover {
+		border-bottom-color: transparent;
+		border-top: 3px solid #CCC;
+		box-shadow: none;
+	}
+
+	.nav-tabs li a:active, .nav-tabs li a:focus {
+		border-bottom: 0;
+	}
+
+	.nav-tabs li.active a,
+	.nav-tabs li.active a:hover,
+	.nav-tabs li.active a:focus {
+		background: #FFF;
+		border-left-color: #EEE;
+		border-right-color: #EEE;
+		border-top: 3px solid @brand-primary;
+		color: @gray-dark;
+		outline: none;
+	}
+
+	.tab-content {
+		border-radius: 0 5px 5px 5px;
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+		background-color: #FFF;
+		border: 1px solid #EEE;
+		border-top: 0;
+		padding: 15px;
+	}
+}
+
+.tabs.alternative {
+	.nav-tabs li.active a,
+	.nav-tabs li.active a:hover,
+	.nav-tabs li.active a:focus {
+		background: @brand-primary-light;
+		color: #ffffff;
+	}
+}
+
+.nav-pills > li > a {
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.08);
+	margin: 0 0 10px 0;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	color: #FFFFFF;
+	background-color: @brand-primary-light;
+	outline: none;
+}
+.nav-pills > li.active > a [class^="fa-"]:before, .nav-pills > li.active > a [class*=" fa-"]:before {
+	color: #FFFFFF;
+}

@@ -1,0 +1,113 @@
+/*-----------------------------------------------------------------------------------*/
+/* Portfolio */
+/*-----------------------------------------------------------------------------------*/
+
+.portfolio-group  {
+	text-align:center; 
+	padding: 0;
+	width: 100% !important;	
+	.portfolio-item {
+		overflow: hidden;
+		border-radius: 5px;
+		position: relative;
+		text-align: center;
+		vertical-align: text-top;
+		list-style: none outside none;
+		> div {
+			border: 1px solid rgba(0, 0, 0, 0.08) !important;
+		}
+	}
+	figure {
+		border-radius: 5px;
+		margin: 1px;
+		padding: 0px;
+  		position: relative;
+  		overflow: hidden;
+		img {
+			max-width: 100%;
+			display: block;
+			position: relative;
+			z-index:0;
+			-webkit-transition: -webkit-transform 0.4s ease-out;
+			-moz-transition: -moz-transform 0.4s ease-out;
+			transition: transform 0.4s ease-out;
+		}
+	}
+	figcaption {
+		border-top: 5px solid @brand-primary-darker;
+		color: #ffffff;
+		top: 0;
+		left: 0;
+		padding: 30px 40px;
+		background-color: @brand-primary-dark;
+		text-align: left;
+		text-transform: none; 
+		position: relative;
+		z-index: 1;  
+	}
+	h3 {
+		color:#ffffff;
+		margin: 0;
+		padding: 0px 0px 15px;
+		font-size: 22px;
+		font-weight: 400;
+		text-transform: uppercase;
+		line-height: 1em;
+	}
+	.col-md-4 {
+		width: 33.33%;
+	}
+}
+
+ul.portfolio li a, ul.grid li:first-child a {
+  padding:0 !important;
+  margin:0 !important;
+}
+
+.portfolio-filter {
+		margin: 0;
+		padding: 0px;
+	li {
+		list-style: none;
+		display: inline-block;
+	}
+}
+.portfolio-filter-label {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding:11px 12px;
+}
+
+.portfolio figcaption span {
+  color: #cccccc;
+  line-height: 2em;
+  display: block;
+  padding: 30px;
+}
+
+.no-touch .portfolio-item figure:hover img,
+.portfolio-item figure.cs-hover img {
+  bottom:0px;
+  -webkit-transform: scale(1.2) translateY(-7.5%);
+  -moz-transform: scale(1.2) translateY(-7.5%);
+  -ms-transform: scale(1.2) translateY(-7.5%);
+  transform: scale(1.2) translateY(-7.5%);
+}
+
+.portfolio-item figcaption {
+  height:100%;
+  width: 100%;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s 0.2s;
+  -moz-transition:    opacity 0.5s 0.2s;
+  transition:         opacity 0.5s 0.2s;
+}
+
+.no-touch .portfolio-item figure:hover figcaption,
+.portfolio-item figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:    opacity 0.5s;
+  transition:         opacity 0.5s;
+}

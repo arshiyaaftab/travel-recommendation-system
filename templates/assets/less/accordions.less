@@ -1,0 +1,36 @@
+/*-----------------------------------------------------------------------------------*/
+/* Accordions */
+/*-----------------------------------------------------------------------------------*/
+.panel-group .panel-heading {
+	padding: 0;
+	h4 {
+		margin: 0;
+		padding: 0;
+		color: @gray;
+		font-size: 17px;
+	}
+	a {
+		display: block;
+		padding: 10px 15px;
+		margin: 0;
+	}
+}
+
+.panel-group .panel-heading a:hover, .panel-group .panel-heading a:focus {
+	text-decoration: none;
+}
+
+.panel-group .panel-heading a [class^="icon-"] {
+	margin-right: 4px;
+	position: relative;
+	top: 1px;
+}
+
+.panel-group.alternative .panel-heading {
+		background: @brand-primary-light;
+		h4 {
+			a{
+				color: #FFFFFF;
+			}
+		}
+}

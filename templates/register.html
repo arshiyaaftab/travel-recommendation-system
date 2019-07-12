@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- bootstrap js cdn -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Travelix Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="static/styles/bootstrap4/bootstrap.min.css">
+<link href="static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="static/styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="static/styles/responsive.css">
+
+</head>
+<body>
+        
+        
+        
+        
+        
+        
+        
+        <div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+
+		<!-- Top Bar -->
+
+		
+
+		<!-- Main Navigation -->
+
+		<nav class="main_nav">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
+						<div class="logo_container">
+							<div class="logo"><a href="#"><img src="static/static/images/logo.png" alt=""></a></div>
+						</div>
+						<div class="main_nav_container ml-auto">
+							<ul class="main_nav_list">
+								<li class="main_nav_item"><a href="{{url_for('index')}}">HOME</a></li>
+								<li class="main_nav_item"><a href="{{url_for('main')}}">LOGIN</a></li>
+								
+								
+							</ul>
+						</div>
+						
+
+						<form id="search_form" class="search_form bez_1">
+							<input type="search" class="search_content_input bez_1">
+						</form>
+
+						<div class="hamburger">
+							<i class="fa fa-bars trans_200"></i>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</nav>
+
+	</header>
+
+	
+
+	<!-- Home -->
+
+	<div class="home">
+		
+		<!-- Home Slider -->
+
+		<div class="home_slider_container">
+			
+			<div class="owl-carousel owl-theme home_slider">
+
+				<!-- Slider Item -->
+				
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(static/images/home_slider.jpg)"></div>
+
+					<div class="home_slider_content text-center">
+						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
+							<h1>Register</h1>
+							<h1>page</h1>
+							
+							<div>
+            <form action="{{url_for('login')}}" method="POST">
+            <input type="text" class="form-control" name="user_name" placeholder="username">
+            <br>
+            <input type="password" class="form-control" name="password" placeholder="password">
+            <br>
+	        <input type="text" class="form-control" name="id" placeholder="id">
+            <br>
+	            <input type="text" class="form-control" name="user_id" placeholder="user_id">
+            <br>
+            <input type="submit" class="btn btn-primary" value="Register">
+        </form>
+        </div>
+							
+							
+							
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				
+
+			</div>
+			
+			
+			<!-- Home Slider Dots -->
+
+			
+			
+		</div>
+
+	</div>
+
+	<!-- Search -->
+
+	
+
+	<!-- Intro -->
+	
+	
+</div>
+
+<script src="static/js/jquery-3.2.1.min.js"></script>
+<script src="static/styles/bootstrap4/popper.js"></script>
+<script src="static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="static/plugins/easing/easing.js"></script>
+<script src="static/js/custom.js"></script>
+
+</body>
+
+</html>
+        
+        
+        
+        
+        
+        
+        
+        

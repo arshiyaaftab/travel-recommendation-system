@@ -1,0 +1,176 @@
+/*-----------------------------------------------------------------------------------*/
+/* Font Awesome */
+/*-----------------------------------------------------------------------------------*/
+[class^="fa-"]:before,
+[class*=" fa-"]:before {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+/* Joomla Menus */
+.menu li [class^="fa-"]:before,
+.menu li [class*=" fa-"]:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.menu li [class^="fa-"]:before,
+.menu li [class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}
+.menu li a[class^="fa-"],
+.menu li a[class*=" fa-"] {
+  position: relative;
+  padding-left: 37px !important;
+}
+.menu li a:hover[class^="fa-"]:before,
+.menu li a:hover[class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.1);
+}
+/* Top Menu Icons */
+#hornav li [class^="fa-"]:before,
+#hornav  li [class*=" fa-"]:before {
+  color: rgba(255, 255, 255, 0.2);
+  top: 12px;
+  left: 12px;
+  font-size: 18px;
+}
+/* Header-# Menu Icons */
+.header-1 .menu li [class^="fa-"]:before,
+.header-1 .menu li [class*=" fa-"]:before,
+.header-2 .menu li [class^="fa-"]:before,
+.header-2 .menu li [class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.2);
+  top: 1px;
+}
+/* Base Module Icons */
+#base [class^="fa-"]:before,
+#base [class*=" fa-"]:before {
+  color: rgba(255,255,255, 0.2);
+}
+/* Footer Menu Icons */
+#footermenu li [class^="fa-"]:before,
+#footermenu li [class*=" fa-"]:before {
+  color: rgba(255, 255, 255, 0.2);
+  top: 5px;
+}
+.smOW li [class^="fa-"]:before,
+.smOW li [class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.2);
+  top: 9px;
+}
+.fa-col5 {
+  float: left;
+  padding: 0 0 10px;
+  width: 20%;
+}
+a.slicknav_item [class^="fa-"]:before,
+a.slicknav_item [class*=" fa-"]:before {
+  display: none;
+}
+.menu a.slicknav_item [class^="fa-"],
+.menu a.slicknav_item [class*=" fa-"] {
+  padding-left: 0 !important;
+}
+
+.fa-icon-list {
+	text-align:center;
+	margin: 30px 0;
+	> div {
+		min-height: 105px;
+		
+	}
+	i {
+		font-size:24px;
+		background: #fff;
+		border:1px solid @gray-lighter;
+		padding:10px;
+		border-radius: 5px;
+	}
+}
+
+
+i.fa {
+  display: inline-block;
+  &:before {
+    padding-right:0;
+  }
+  &.square, &.circle, &.rounded {
+    width: 26px;
+    height:26px;
+    line-height:26px;
+    border-radius: 50%;
+    &.icon-lg {
+      width: 40px;
+      height:40px;
+      line-height:40px;
+    }
+    &.icon-xlg {
+      width: 50px;
+      height:50px;
+      line-height:50px;
+    }
+    &.icon-xxlg {
+      width: 50px;
+      height:50px;
+      line-height:50px;
+    }
+  }
+  &.square {
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;  
+    border: 1px solid rgba(0,0,0,0.2);
+    background: #fff;
+  }
+  &.center {
+    width:100%;
+    text-align: center;
+  }
+}
+.fa-border {
+  background: none repeat scroll 0 0 #FFFFFF;
+    border-color: @gray-lighter !important;
+    border-radius: 5px !important;
+    padding: 0.2em 0.35em 0.15em !important;
+    &:before {
+      padding-right: 0;
+    }
+
+}
+
+/* Buttons */
+.btn [class^="fa-"]:before, .btn [class*=" fa-"]:before {
+  color: #ffffff;
+}
+.btn-default [class^="fa-"]:before, .btn-default [class*=" fa-"]:before {
+  color: rgba(0,0,0,0.3);
+}
+
+/* Labels */
+.label [class^="fa-"]:before, .label [class*=" fa-"]:before {
+  color: #ffffff;
+}
+.label-default [class^="fa-"]:before, .label-default [class*=" fa-"]:before {
+  color: rgba(0,0,0,0.3);
+}
+
+/* Remove from mobile menu */
+a.slicknav_item [class^="fa-"]:before, a.slicknav_item [class*=" fa-"]:before, .slicknav_menu li [class^="fa-"]:before, .slicknav_menu li [class*=" fa-"]:before {
+  display:none !important; 
+}
+.slicknav_nav ul > li a[class^="fa-"], .slicknav_nav ul > li a[class*=" fa-"] {padding-left: 14px !important;}
+a.slicknav_item [class^="fa-"], a.slicknav_item [class*=" fa-"] {padding-left: 0 !important;}

@@ -1,0 +1,42 @@
+/*-----------------------------------------------------------------------------------*/
+/* Blockquotes */
+/*-----------------------------------------------------------------------------------*/
+@blockquote-border: 10px;
+@blockquote-radius: 0px;
+blockquote {
+	border: 1px solid @gray-light;
+    border-left: @blockquote-border solid @gray-light;
+    border-radius: @blockquote-radius;
+    background: #fafafa;
+    font-size: 16px;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    &.right {
+    	text-align: right;
+    	border-width: 1px @blockquote-border 1px 1px !important;
+    	&.primary {
+            border-color: @brand-primary-light;
+    		border-left: 1px solid @brand-primary-light;
+    		border-right: @blockquote-border solid @brand-primary-light;
+    	}
+    }
+    p {
+    	margin: 0;
+    }
+    &.bg-gray {
+    	background: @gray;
+    	border: 1px solid @gray-light;
+    	border-left: @blockquote-border solid @gray-light;
+    	color: #ffffff;
+    }
+    &.primary {
+    	border: 1px solid @brand-primary-light;
+    	border-left: @blockquote-border solid @brand-primary-light;
+    }
+    &.bg-primary {
+    	background: @brand-primary-light;
+    	border: 1px solid @brand-primary-light;
+    	border-left: @blockquote-border solid @brand-primary-light;
+    	color: #ffffff;
+    }
+}

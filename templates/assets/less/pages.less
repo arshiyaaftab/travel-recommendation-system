@@ -1,0 +1,133 @@
+/*-----------------------------------------------------------------------------------*/
+/* Pages */
+/*-----------------------------------------------------------------------------------*/
+
+/* Services */
+.list-services li i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.list-services li{
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+/* About Me */
+.about-me-icons.list-inline > li {
+	padding: 5px 2px;
+	a
+	{
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+/* Login */
+.login-page {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid @gray-lighter;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #EEEEEE;
+    color: #555555;
+    padding: 30px;
+    label {
+    	font-weight: normal;
+    }
+}
+
+/* Sign Up */
+.signup-page {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid @gray-lighter;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #EEEEEE;
+    color: #555555;
+    padding: 30px;
+    label {
+    	font-weight: normal;
+    }
+}
+
+/* 404 */
+.error-404-page {
+	h2 {
+		font-size: 160px;
+		font-weight: bold;
+		color: @gray-light;
+	}
+	h3 {
+		font-size: 30px;
+		padding: 0 0 20px;
+	}
+	.search-404 {
+		background: none repeat scroll 0 0 #dedede;
+	    border: 1px solid @gray-lighter;
+	    border-radius: 5px;
+	    box-shadow: 0 0 3px #EEEEEE;
+	    color: #555555;
+	    padding: 30px;
+	    width:360px;
+	    margin: 0 auto 30px;
+	    input {
+	    	height: 33px;
+	    	border: 1px solid @gray-lighter;
+	    	border-radius: 5px;
+	    	width:210px;
+	    	padding: 5px 10px;
+	    }
+	}
+	
+}
+
+
+// Related
+/* Person Details */
+.person-details{
+	figure {
+		overflow: hidden;
+		background: #FFFFFF;
+	    border: 1px solid @gray-lighter;
+	    border-radius: 5px;
+	    margin: 0;
+		img {
+		    display: block;
+		    max-width: 100%;
+		    position: relative;
+		}
+		figcaption {
+			padding: 15px;
+		}
+		small {
+			font-size: 55%;
+		}
+	}
+}
+.person-details-icons {
+	background: @brand-primary;
+	padding: 10px;
+	text-align: center;
+	margin:0;
+	[class^="fa-"]:before, [class*=" fa-"]:before {
+		color: rgba(255,255,255,0.2);
+		padding:0;
+	}
+	a:hover {
+		text-decoration: none;
+		[class^="fa-"]:before, [class*=" fa-"]:before {
+			color: rgba(255,255,255,0.7);
+			text-decoration: none;
+		}
+	}
+}
+
+/* Grid System */
+.show-grid [class*="col-md-"] .show-grid-block {
+    background-color: @brand-primary-light;
+    border: 1px solid #FFFFFF;
+    color: #ffffff;
+    display: block;
+    line-height: 40px;
+    min-height: 40px;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+// *-----------------------------------------------------------------------------------*
+// * Mixins */
+// *-----------------------------------------------------------------------------------*
+.bottom_border() {
+	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.05) 0%, rgba(0,0,0,0) 25px, rgba(0,0,0,0) 100%); 
+	background-image: -o-linear-gradient(bottom, rgba(0,0,0,.1) 0%, rgba(0,0,0,0) 30px, rgba(0,0,0,0) 100%); 
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.1) 0%, rgba(0,0,0,0) 30px, rgba(0,0,0,0) 100%); 
+	background-image: linear-gradient(bottom, rgba(0,0,0,.1) 0%, rgba(0,0,0,0) 30px, rgba(0,0,0,0) 100%); 
+	-webkit-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(0,0,0, 0.1) inset;
+	-moz-moz-box-shadow: 	0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(0,0,0, 0.1) inset;
+	-ms-moz-box-shadow: 	0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(0,0,0, 0.1) inset;
+	-o-moz-box-shadow: 		0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(0,0,0, 0.1) inset;
+	box-shadow: 			0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(0,0,0, 0.1) inset;
+}
+.bg_size_cover() {
+	-webkit-background-size: 	cover !important;
+	-moz-background-size: 		cover !important;
+	-o-background-size: 		cover !important;
+	background-size: 			cover !important;
+}
+.border-radius(@radius: 5px) {
+	-webkit-border-radius: @radius;
+	   -moz-border-radius: @radius;
+	        border-radius: @radius;
+}
+.transition(@type: all 0.3s ease-out) {
+	-webkit-transition: @type;
+	   -moz-transition: @type;
+	     -o-transition: @type;
+	     	transition: @type;
+}
+.transition-duration(@type: 0.4s) {
+	-webkit-transition-duration: @type;
+	   -moz-transition-duration: @type;
+	     -o-transition-duration: @type;
+	    -ms-transition-duration: @type;
+	        transition-duration: @type;
+}
+.transition-property(@type: background-color) {
+	-webkit-transition-property: @type;
+	   -moz-transition-property: @type;
+	     -o-transition-property: @type;
+	    -ms-transition-property: @type;
+	        transition-property: @type;
+}
+.box-shadow(@shadow: 0 0 5px #000) {
+	-webkit-box-shadow: @shadow;
+	   -moz-box-shadow: @shadow;
+	    -ms-box-shadow: @shadow;
+	     -o-box-shadow: @shadow;
+	        box-shadow: @shadow;
+}
+.box-sizing(@type: border-box) {
+	-webkit-box-sizing: @type;
+	   -moz-box-sizing: @type;
+	    -ms-box-sizing: @type;
+	     -o-box-sizing: @type;
+	        box-sizing: @type;
+}

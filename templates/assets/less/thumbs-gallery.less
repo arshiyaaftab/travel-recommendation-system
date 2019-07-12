@@ -1,0 +1,121 @@
+/*-----------------------------------------------------------------------------------*/
+/* Thumbs Gallery */
+/*-----------------------------------------------------------------------------------*/
+
+.thumbs-gallery .clear {clear:both; height:0px; width:100%;}
+
+.thumbs-gallery {
+		float: left;
+		margin: 6px 0 0 0;
+		i {
+			background: #000000;
+			display: block;
+			opacity: 0; 
+			position: absolute;
+			left: 3px; 
+			top: 3px; 
+			height: 60px; 
+			width: 60px; 
+			opacity: 0;
+		}
+		.thumbBox {
+			float:left;
+			margin:2px;
+			padding:0px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			font-size:0;
+			line-height:0;
+			position:relative;
+			img {
+				background-color: #e0e0e0;
+			    border: 1px solid #fafafa;
+			    padding: 3px;
+			}
+		}
+	}
+
+/* SlimBox */
+
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.lbLoading {
+	background: #fff url(../img/loading.gif) no-repeat center;
+}
+
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(../img/prevlabel.gif) no-repeat 0 15%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover {
+	background: transparent url(../img/nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 22px;
+	background: transparent url(../img/closelabel.gif) no-repeat center;
+	margin: 5px 0;
+	outline: none;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}
