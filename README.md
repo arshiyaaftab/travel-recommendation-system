@@ -4,6 +4,7 @@ This projects provides image based recognition of unknown tourist places and als
 Dependencies:
 -----------------------------------------
 1.Flask
+
 2.Twilio
 
 
