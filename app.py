@@ -316,14 +316,14 @@ def send_message():
 
         print(main_msg)
 
-        account_sid = 'ACd1d6016ea4d29b2bf41bbac3f00ae389' 
-        auth_token = 'a8aba8be1b20cdca8809db1038be39d3' 
+        account_sid = '(enter acc id)' 
+        auth_token = '(enter auth token)' 
         client = Client(account_sid, auth_token) 
  
         message = client.messages.create( 
                               from_='whatsapp:+14155238886',  
                               body= main_msg,      
-                              to='whatsapp:+918618049962'
+                              to='(enter your phone number)'
                           ) 
  
         print(message.sid)
