@@ -19,6 +19,10 @@ Steps to follow:
 4.For image search upload files from "queries" folder only.
 
 
+![image](https://user-images.githubusercontent.com/52826790/61241090-6f72bc00-a760-11e9-88cc-d1db6eff6591.png)
+
+![image](https://user-images.githubusercontent.com/52826790/61241141-90d3a800-a760-11e9-9f02-e475f9d64bd9.png)
+
 
 
 
