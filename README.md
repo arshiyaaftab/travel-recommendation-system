@@ -10,7 +10,7 @@ Dependencies:
 -----------------------------------------
 Steps to follow:
 -----------------------------------------
-1. Download all dependencies
+1. Download all the dependencies.
 
 2. In terminal go to project directory and run "python app.py" command.
 
